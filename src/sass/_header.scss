@@ -1,0 +1,311 @@
+// .Header {
+//   width: 100vw;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: 1;
+//   // margin-bottom: 40px;
+
+//   // @include tablet {
+//   //   width: 50%;
+//   //   height: $header-tablet-height;
+//   //   box-shadow: $box-shadow;
+//   // }
+
+//   // @include mobile {
+//   //   height: $header-mobile-height;
+//   // }
+
+//   // background-color: rgb(252, 253, 253);
+//   // &__logo {
+//   //   @include flex(center, center);
+//   //   position: absolute;
+//   //   inset: 0;
+//   //   pointer-events: none;
+//   //   @include tablet {
+//   //     margin-left: 26rem;
+//   //     width: 7%;
+//   //   }
+//   //   @include mobile {
+//   //     width: 2%;
+//   //   }
+//   //   img {
+//   //     padding-bottom: 5px;
+//   //     width: 7rem;
+//   //     display: block;
+//   //     border-radius: 50%;
+//   //     @include tablet {
+//   //       width: 7rem;
+//   //       display: block;
+//   //       border-radius: 50%;
+//   //     }
+//   //     @include mobile {
+//   //       width: 5rem;
+//   //     }
+//   //   }
+//   // }
+//   // &__menu {
+//   //   @include tablet {
+//   //     display: flex;
+//   //     align-items: flex-start;
+//   //     justify-content: flex-start;
+//   //     height: 100%;
+//   //     width: 85%;
+//   //     position: relative;
+//   //   }
+//   //   .header__menu__mobile-toggle {
+//   //     display: none;
+
+//   //     @include tablet {
+//   //       padding-top: 1.5rem;
+//   //       display: block;
+//   //       font-size: 1.5rem;
+//   //     }
+//   //     @include mobile {
+//   //       margin-top: 0.7rem;
+//   //       padding: 0;
+//   //     }
+//   //   }
+//   //   @include flex(center, space-between);
+//   //   height: 100%;
+//   //   padding-bottom: 3.4rem;
+
+//   //   &__left,
+//   //   &__right {
+//   //     @include flex(center, center);
+//   //     .Header__menu__right__search,
+//   //     .Header__menu__right__cart,
+//   //     .Header__menu__right__login {
+//   //       margin-top: 27px;
+//   //       margin-left: 26.7px;
+//   //     }
+//   //     &__item {
+//   //       margin-top: 27px;
+//   //       margin-left: 26.7px;
+//   //     }
+//   //   }
+
+//   //   &__left {
+//   //     font-family: Source Sans Pro;
+//   //     font-size: 18px;
+//   //     font-weight: 450;
+//   //     margin-left: 15px;
+//   //     padding-bottom: 4px;
+//   //     @include tablet {
+//   //       flex-direction: column;
+//   //       background-color: rgba(0, 0, 0, 0.53);
+//   //       position: fixed;
+//   //       left: 0;
+//   //       top: 0;
+//   //       width: 70%;
+//   //       height: 50vh;
+//   //       z-index: 9999;
+//   //       transform: translateX(-30%);
+//   //       transition: transform 0.5s ease;
+//   //       color: $btn-main-color;
+//   //     }
+//   //     &__close {
+//   //       display: none;
+//   //     }
+//   //   }
+
+//   //   &__right {
+//   //     padding-right: 50px;
+//   //     font-size: 24px;
+//   //     @include tablet {
+//   //       position: absolute;
+//   //       font-size: 1rem;
+//   //       top: -3px;
+//   //       right: -151px;
+//   //     }
+//   //     @include mobile {
+//   //       top: -10px;
+//   //     }
+//   //   }
+//   // }
+// }
+// .Header__menu__right__cart {
+//   position: relative;
+
+//   .bagde {
+//     display: block;
+//     padding-left: 3px;
+//     height: 1rem;
+//     width: 1.1rem;
+//     content: "";
+//     font-weight: 600;
+//     font-size: 12px;
+//     position: absolute;
+//     top: -14%;
+//     right: -5px;
+//     border-radius: 50%;
+//     z-index: 10;
+//     background-color: $txt-second-color;
+//     color: $btn-main-color;
+//   }
+// }
+.Header {
+  background-color: white;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 9999999;
+}
+.Header__menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.Header__menu__left {
+  font-size: 20px;
+  display: flex;
+}
+.Header__menu__right {
+  display: flex;
+}
+.header__menu__mobile-toggle {
+  display: none;
+}
+.Container img {
+  border-radius: 50%;
+}
+// .Container{
+//   width:10%;
+// }
+.Header__menu__left__item {
+  margin-right: 30px;
+}
+.Container {
+  width: 7%;
+  transform: translateX(-11vw);
+}
+.Header__menu__right__search {
+  margin-right: 20px;
+}
+.Header__menu__right__cart {
+  margin-right: 20px;
+}
+.Container2 {
+  display: none;
+}
+.Container2 img {
+  border-radius: 50%;
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header__menu__mobile-toggle {
+    padding-top: 20px;
+    width: 100%;
+    align-items: center;
+    display: block;
+  }
+  .Header__menu__left {
+    display: none;
+  }
+  .Header__menu__right {
+    display: none;
+  }
+
+  .Container {
+    display: none;
+  }
+  .Header__menu {
+    padding-bottom: 20px;
+    // background-color: grey;
+    flex-direction: column;
+
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .active ~ .Header__menu__left {
+    padding-top: 20px;
+    display: block;
+  }
+  .active ~ .Header__menu__right {
+    display: none;
+  }
+  .Container2 {
+    display: block;
+  }
+  .flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Header__menu__left__item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+  .header__menu__mobile-toggle {
+    padding-top: 20px;
+    width: 100%;
+    align-items: center;
+    display: block;
+  }
+  .Header__menu__left {
+    display: none;
+  }
+  .Header__menu__right {
+    display: none;
+  }
+
+  .Container {
+    display: none;
+  }
+  .Header__menu {
+    padding-bottom: 20px;
+    // background-color: grey;
+    flex-direction: column;
+
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .active ~ .Header__menu__left {
+    padding-top: 20px;
+    display: block;
+  }
+  .active ~ .Header__menu__right {
+    display: none;
+  }
+  .Container2 {
+    display: block;
+  }
+  .flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Header__menu__left__item {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .Header__menu {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .Header__menu__left__item {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}

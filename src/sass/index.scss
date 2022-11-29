@@ -1,0 +1,20 @@
+@import "./variables";
+@import "./mixins";
+@import "./base";
+
+/* -----------------*/
+
+@import "/src/sass/header";
+@import "/src/sass/footer";
+@import "/src/sass/slider";
+@import "/src/sass/home";
+@import "/src/sass/components/services.scss";
+@import "/src/sass/components/section.scss";
+@import "/src/sass/components/product-card.scss";
+@import "/src/sass/Catalog.scss";
+@import "/src/sass/productDetail.scss";
+@import "/src/sass/components/productdetailform.scss";
+
+@import "/src/sass/cart";
+@import "/src/sass/contact";
+@import "/src/sass/checkout";

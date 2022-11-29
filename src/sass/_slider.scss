@@ -1,0 +1,25 @@
+.slider {
+  height: 100vh;
+  max-height: 1080px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+  img {
+    height: 500px;
+    width: 100%;
+  }
+  .slide__btnLeft {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+
+    transform: translate(60%, 90%);
+    font-size: 24px;
+  }
+  .silde__btnRight {
+    width: 100%;
+    height: 400px;
+    font-size: 24px;
+    position: absolute;
+  }
+}

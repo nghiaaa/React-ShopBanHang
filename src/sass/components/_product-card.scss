@@ -1,0 +1,52 @@
+.product__item {
+  width: 88%;
+  border: 1px solid #f3f3f3;
+  border-top: none;
+
+  .product__info {
+    margin-top: 12px;
+
+    .product__name {
+      z-index: 1000000;
+      width: 100%;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 300;
+    }
+    .product__name:hover {
+      text-decoration-line: underline;
+    }
+  }
+  .product__card-bottom {
+    .price {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .icon_cart {
+      margin-left: 90px;
+      i {
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+}

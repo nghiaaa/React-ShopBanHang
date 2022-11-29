@@ -1,0 +1,62 @@
+.Banner {
+  width: 90%;
+  margin-left: 117px;
+  position: relative;
+  img {
+    width: 90%;
+    background-size: contain;
+  }
+  button {
+    position: absolute;
+    top: 63%;
+    left: 290px;
+    border-radius: 2px;
+    border: 1px solid $btn-main-color;
+    color: red;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    // bottom: 370px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    &:hover {
+      color: black;
+    }
+  }
+}
+.trending__product {
+  margin-top: 30px;
+  // margin-left: 95px;
+}
+.New__product {
+  // padding-left: 120px;
+  margin-top: 30px;
+}
+.banner-1111 {
+  margin-top: 5%;
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+ .trending__product{
+  margin-left: 0;
+ }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+  
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+ 
+}

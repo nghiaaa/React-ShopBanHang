@@ -1,0 +1,77 @@
+.title__product {
+  margin-top: 12px;
+}
+.all__Product {
+  // margin-left: 20px;
+  margin-top: 30px;
+}
+.container {
+  padding-top: 3vh;
+}
+.filter__Product {
+  margin: 0px 7rem;
+  padding-top: 20px;
+  @include flex(stretch, space-between);
+  .filter__widget {
+    // width: 150px;
+    // margin-left: 25px;
+    select {
+      width: 100%;
+      height: 25px;
+      border-radius: 2px;
+      padding-left: 5px;
+    }
+  }
+  .search__box {
+    display: flex;
+    // margin-right: 5rem;
+    position: relative;
+    .search__box1 {
+      height: 25px;
+      width: 100%;
+      border: solid 2px #e5e5e5;
+      padding-left: 5px;
+    }
+    .icon-search {
+      // display: block;
+      // position: absolute;
+      // bottom: -3px;
+      // right: 10px;
+      align-items: center;
+      position: absolute;
+      font-size: 20px;
+      right: 0;
+    }
+  }
+}
+.sort__widget {
+  // width: 150px;
+  select {
+    width: 100%;
+    height: 25px;
+    border-radius: 2px;
+    padding-left: 5px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .filter__Product {
+    flex-direction: column;
+  }
+}

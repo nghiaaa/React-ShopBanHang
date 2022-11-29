@@ -1,0 +1,84 @@
+.mainContact {
+  margin: 5rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.mainContact__Left {
+  width: 94%;
+  padding-top: 1.6rem;
+}
+.mainContact__Right {
+  h1 {
+    margin: 2rem 0px;
+  }
+}
+.mainContact__Right_content {
+  height: 80%;
+  width: 90%;
+
+  span {
+    display: block;
+    padding-bottom: 0.3rem;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  input {
+    padding-left: 0.5rem;
+    background-color: rgb(247, 247, 247);
+    width: 90%;
+    height: 3rem;
+    border: 1px solid rgb(247, 247, 247);
+  }
+}
+.mainContact__Right_content-bottom {
+  height: 80%;
+  margin: 1rem 0px;
+  .txt {
+    padding-left: 0.4rem;
+    width: 93%;
+    height: 30%;
+  }
+  Button {
+    border: none;
+    margin-top: 0.7rem;
+    width: 17%;
+    height: 7%;
+    border-radius: 0.4rem;
+    background-color: rgb(252, 175, 23);
+    cursor: pointer;
+  }
+}
+.ant-btn span {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .mainContact {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainContact__Left {
+    width: 100%;
+  }
+  .ant-input {
+    // width:calc(100vw - 50px) !important
+  }
+}

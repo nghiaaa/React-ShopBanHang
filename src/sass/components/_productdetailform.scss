@@ -1,0 +1,40 @@
+.form_detail {
+  padding-left: 60px;
+  margin-top: 150px;
+}
+.form__top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  width: 50%;
+  border-bottom: solid 2px #e5e5e5;
+  height: 30px;
+  span {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+.form__bottom {
+  padding-top: 15px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    margin: 8px 0px;
+    display: block;
+  }
+  p {
+    margin: 8px 0px;
+  }
+}
+.form__bottom-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.form__bottom-content {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding-right: 230px;
+}

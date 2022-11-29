@@ -1,0 +1,27 @@
+.Checkout__main {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.checkout__main-left {
+  .profile {
+    width: 70%;
+    padding: 2rem;
+    border: 1px solid;
+    margin: 2rem 0px;
+    input {
+      padding-left: 1rem;
+      display: block;
+      width: 90%;
+      height: 3rem;
+      margin: 2rem 0px;
+    }
+    TextArea {
+      padding-left: 1rem;
+      display: block;
+      width: 90%;
+      height: 5rem;
+      margin: 2rem 0px;
+    }
+  }
+}
